@@ -1,4 +1,4 @@
-# WifiJammer
+# WifiJammer and Fake hotspot 
 Using esp8266 Module, attacking the different wifi network and creating fake .<br />
 Making Wi-Fi Jammer using NodeMCU:<br />
 Contents<br />
@@ -32,6 +32,8 @@ This will be the sketch that we will upload into the NodeMCU; this sketch it to 
 Our code is ready to be uploaded. Connect the NodeMCU to your PC, go to Tools menu and select NodeMCU esp-12E, select the correct port and then upload.<br />
 <br />
 
+**----------------Some Common Errors----------------**
+
 **Drivers and COM Port**
 
 In order to upload successfully, you must select the correct COM port. You can think of it as the address with that your computer accesses the ESP8266. The best way to find the correct port is to open the Arduino IDE and see what ports are listed there. This looks the same for every OS, including Linux. On Windows, COM1 is usually never the correct port. On Windows you can also have a look at your device manager, there you can also see if a device is not recognized.<br />
@@ -41,7 +43,7 @@ Those are the drivers of the most used chips:<br />
 💾 CP2102(https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)<br />
 💾 CH340(https://sparks.gogo.co.nz/ch340.html)
 
-**Upload Settings**
+**Upload Settings in Arduino Ide**
 Those are the recommended upload/compile settings for Arduino:<br />
 Board: Generic ESP8266 Module  <br />
 Flash Mode: DOUT<br />
