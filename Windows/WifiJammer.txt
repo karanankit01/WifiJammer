@@ -1,0 +1,52 @@
+Step 1
+
+Download the Node MCU Flasher from the link below for Windows 64 bit.
+
+Link: https://github.com/karanankit01/WifiJammer/blob/master/Windows/ESP8266Flasher.exe
+
+Step 2
+
+Now Download the ESP8266 Deauther BIN Files (the wifi jammer code file) from the link below.
+
+Link: https://github.com/karanankit01/WifiJammer/blob/master/Windows/deauther_2.1.0_1mb.bin
+
+Step3 (Optional)
+
+Most of the windows have this driver but some have not.
+
+Download the CP210X driver zip file from the link below.
+Then from zip file extrat the content and run the 64 bit exe file as administrator and install the driver.
+
+Step4
+
+Now Click the icon of Node Mcu flasher file icon to launch the flasher window.
+Now connect the Node MCU (esp8266) to the laptop using usb cable.
+On the flasher window go to advance tab and select the setting.
+Baudrate: 230400
+Flash size: 4MByte
+Flash Speed 80MHz
+SPI Mode: DIO
+
+Step 5
+
+Now go to config tab and select the gear icon and select the bin file downloaded in step2 and open it.
+
+Step 6
+
+Go to operation tab in flasher window and click on flash.
+Wait for flashing until the green tick at the bootom comes up.
+
+Step 7
+
+Now jammer is ready, to check it go to wifi and there will be a wifi showing with name "pwned".
+
+Step 8
+
+Now connect to the "Pwned" on any device. Password is "deauther"
+and then go to this ip address "192.168.4.1
+
+Then start handling the wifi.
+In SSIDs tab there you can create fake wifi network.
+then in attack section start the Beacon.
+Check the wifi available.
+
